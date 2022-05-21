@@ -1,0 +1,68 @@
+.body {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.results {
+    margin:10px;
+	padding:0px 0px 2px 0px;
+	background-color:#80ced6;	
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+#top{
+	height:120px;
+	padding:0px;
+	font-size:xx-large;
+	background-color: white;
+	font-family: Calibri;
+}
+.container {
+    
+    background: #618685;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    position: relative;
+    
+    
+}
+.wrapper{
+    width: 500px;
+    
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+@media only screen and (max-width: 1027px) {
+    
+    .containerWidth{
+    width:300px;
+    }
+    
+}
+
+@media only screen and (max-width: 780px) {
+    
+    .containerWidth{
+    width: auto;
+    }
+    
+}
+@media only screen and (max-width: 978px) {
+    
+    .containerEvent{
+    width: 200px;
+    }
+    
+}
+@media only screen and (max-width: 788px) {
+    
+    .containerEvent{
+    width: auto;
+    }  
+}
